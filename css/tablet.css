@@ -3,21 +3,7 @@
 
 /* CSS rules for tablets */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  body {
-    /* Relative position so the absolutely positioned elements C and D are relative to this */
-    position: relative;
-  }
-
-  #MyFoot {
-    /* Fixed  position so that it stays there even if the user scrolls the page */
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    left: 50%;
-  }
-
   #Adiv {
-    top: 0;
     float: left;
     z-index: 2;
   }
@@ -35,7 +21,6 @@
   }
 
   #Bdiv {
-    top: 0;
     float: right;
     /* B right is zero to macth with D */
     right: 0;

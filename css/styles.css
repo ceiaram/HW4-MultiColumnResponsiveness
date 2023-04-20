@@ -24,3 +24,32 @@ ul {
 li:hover {
   background-color: red;
 }
+
+#MyTitle {
+  padding: 20px;
+  width: 100%;
+  background-color: wheat;
+}
+
+#MyTitle h1 {
+  margin: 0;
+}
+
+#MyFoot {
+  /* Fixed  position so that it stays there even if the user scrolls the page */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: wheat;
+  margin: 5px;
+}
+
+#MyFoot p {
+  text-align: center;
+}
+
+body {
+  /* Relative position so the absolutely positioned elements C and D are relative to this */
+  position: relative;
+  font-family: "Courier New", Courier, monospace;
+}
