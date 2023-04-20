@@ -1,0 +1,26 @@
+.set {
+  background-color: rgb(183, 114, 248);
+  color: azure;
+  border: 2px solid #3c3c3c;
+  /* Set the margin space 15px between HTML elements */
+  margin: 15px;
+  /*  Set the padding to 10px to control the space between an HTML element's content and its border */
+  padding: 10px;
+}
+
+li {
+  width: 100px;
+  height: 25px;
+  background-color: gray;
+  border: 2px solid #3c3c3c;
+  margin: 10px;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li:hover {
+  background-color: red;
+}
