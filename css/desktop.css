@@ -3,15 +3,41 @@
 
 /* CSS rules for desktops */
 @media only screen and (min-width: 769px) {
+  body {
+    /* Relative position so the absolutely positioned elements C and D are relative to this */
+    position: relative;
+  }
+
+  #MyFoot {
+    /* Fixed  position so that it stays there even if the user scrolls the page */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 50%;
+  }
+
   #Adiv {
     float: left;
   }
 
-  #Bdiv {
-    float: right;
+  #Cdiv {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 0;
+    /* z is a higher index than d, stacked on top */
+    z-index: 2;
   }
 
-  #C {
-    z-index: 2; /* Make sure C is stacked above D */
+  #Ddiv {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    bottom: 20;
+    z-index: 1;
+  }
+
+  #Bdiv {
+    float: right;
   }
 }
