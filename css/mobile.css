@@ -1,0 +1,6 @@
+/* import styles.css, so no need to copy code over*/
+@import url("styles.css");
+
+/* CSS rules for phones */
+@media only screen and (max-width: 480px) {
+}

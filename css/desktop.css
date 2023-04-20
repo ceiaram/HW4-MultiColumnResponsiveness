@@ -1,0 +1,17 @@
+/* import styles.css, so no need to copy code over*/
+@import url("styles.css");
+
+/* CSS rules for desktops */
+@media only screen and (min-width: 769px) {
+  #Adiv {
+    float: left;
+  }
+
+  #Bdiv {
+    float: right;
+  }
+
+  #C {
+    z-index: 2; /* Make sure C is stacked above D */
+  }
+}
